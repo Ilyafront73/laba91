@@ -1,0 +1,56 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.pervz, .vtorz{
+    display: flex;
+    position: relative;
+    width: 500px;
+    top: 300px;
+    align-content: center;
+    align-items: center;
+    margin-left: 130px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 5px #ff4f00;
+    transition: all 0.5;
+}
+
+.vtorz{
+    position: absolute;
+    width: 500px;
+    top: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 3px #00ffaa;
+    left: 51.9%;
+}
+
+/* @keyframes gif {
+    0% {opacity: 1}
+    32% {opacity: 0}
+    100% {opacity: 1}
+} */
+
+h1{
+	font-size: 30px;
+	margin-bottom: 35px;
+    color: rgb(59, 59, 59);
+	font-weight: 500;
+	position: relative;
+    text-transform: uppercase;
+}
+
+h1::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 3.5px;
+	box-sizing: border-box;
+	width: 80%;
+}
+
+img{
+    border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link  rel = "stylesheet" href = "css/style.css">
+    <title>Gif</title>
+    <script>
+        var i = 0;
+        function Show()
+        {
+            i++;
+            document.getElementById('ii').src = "img_"+i+".jpg";
+            li.classList.add('gif1')
+            li.style.animation = 'gif1 3s infinite';
+            setTimeout(Show, 3000);
+            if(i==5){
+                i=0;
+            }
+        }
+        </script>
+</head>
+<body onpageshow="Show()">
+    <div class="pervz">
+        <h1 id="li"></h1>
+        <img src="img_1.jpg" id="ii">
+    </div>
+    <div class="vtorz">
+        <h1></h1>
+        <img src="img_5.jpg" name="ris1" onmouseover="ris1.src='img_1.jpg'" onmouseout="ris1.src='img_5.jpg'">
+    </div>
+</body>
+</html>
